@@ -1,22 +1,25 @@
-body{
+body {
     background-color: rgb(9, 10, 53);
 }
-.set{
+
+.set {
     margin: 10% auto;
     margin-left: 23vw;
     margin-top: -5vh;
     margin-right: 17vw;
 }
-#title{
+
+#title {
     color: white;
-    font-family: arial;
-   text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
     margin-top: 10vh;
     font-size: 80px;
     font-weight: bolder;
     text-shadow: 4px 4px 4px purple;
 }
-.drum{
+
+.drum {
     height: 100px;
     width: 100px;
     border: 6px solid purple;
@@ -28,14 +31,26 @@ body{
     margin-right: 30px;
     border-radius: 20px;
     margin-bottom: 30px;
+    transition: transform 0.1s, box-shadow 0.1s, opacity 0.1s;
 }
-.jui{
+
+.drum:hover {
+    background-color: #ddd;
+}
+
+.drum:active {
+    background-color: #ccc;
+}
+
+.jui {
     text-align: center;
     color: white;
     font-family: cursive;
     font-weight: bold;
 }
-.pressed{
+
+.pressed {
     box-shadow: 0px 3px 4px 0px bisque;
     opacity: 0.5;
+    transform: scale(0.9);
 }
