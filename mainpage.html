@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Tagengo
+    </title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="jio.html" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#feature">Features</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="icon" onclick="toggleNavbar()">
+            &#9776;
+        </a>
+        <a href="#" style="float: right;">Login ➡️</a>
+        <a href="#" style="float: right;">Sign Up 👤</a>
+    </div>
+    <div class="logo">Ta gengo <br> 多言語</div>
+    <div class="first">
+        <div class="kio" id="about">
+           <h2>Hi 👋 Welcome polyglots</h2>
+           <h3>Get all the content for learning a new language on a same place.<br>
+            Learn alphabets and practice their pronounciation. Learn from modules.<br>
+            Practice with quiz. Chat with our AI powered chatbot. Learn the <br>
+            importance of learning a new languages. Last but not least<br>
+            Play our cool game and make your score the next highscore.<br>
+            Hey between do you know what Tagengo means? Guess.......<br>
+            Tagengo means multilingual. Let's go guys master <br>
+            new languages with Tagengo.
+           </h3>
+        </div>
+        <div class="bigimg">
+
+        </div>
+    </div>
+    <div class="jio">
+         <h2>Importance of learning a new Language</h2>
+         <h4>Learning a language strengthens the area of the brain which is responsible for memory, speech and sensory perception.
+             Bilingual people are better at retaining lists, sequences, names and directions
+            . They are also more creative, perceptive and can concentrate for longer.
+            Learning a new language also demonstrates that you have a host of other skills.
+             According to studies, multilinguals are better at problem-solving, more creative, and are better multitaskers. 
+            All of these skills are very attractive to any potential employer.
+            There are financial gains to be enjoyed from learning a second language too. 
+            It’s even estimated that multilinguals earn 8% more than their monolingual counterparts.Perhaps the most important benefit of learning a language is not the most well-known. According to studies in Sweden, learning a language causes areas of the brain associated with memory, namely the cerebral cortex and hippocampus, to increase in size. Like any muscle in the body, regularly exercising your brain can make it stronger and more flexible.
+
+            What's more, it has been suggested that learning a second language helps prevent brain diseases like dementia and Alzheimer's, and can even have a profound effect on your ability to understand music.
+         </h4>
+    </div>
+    <div><button class="modules">Get Modules</button></div>
+    <div class="att" id="feature">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h2>Learn Pronunciation</h2>
+                <p>This will take you to the keyboard integration page where you can learn the pronunciation
+                    with just one click!!!
+                </p>
+                <p>Just press a key on your keyboard or click on the letters to hear the pronunciation.</p>
+                <p>Let's Start learning ✌️</p>
+            </div>
+            <div class="flip-card-back">
+                <h2>Choose Language</h2>
+                <a href="english.html" class="jo">English</a>
+                <a href="japanese.html" class="jo">Japanese</a>
+                <a href="german.html" class="jo">German</a>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h2>Quiz Game</h2>
+                <p>Test your knowledge with a small quiz.
+                </p>
+                <p>This will take you to a quiz where you will test your learnings.</p>
+                <p>Let's Test your knowledge 📝</p>
+            </div>
+            <div class="flip-card-back">
+                <h2>Choose Language</h2>
+                <a href="quizeng.html" class="jo">English</a>
+                <a href="quizjap.html" class="jo">Japanese</a>
+                <a href="quizger.html" class="jo">German</a>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <h2>Play Game</h2>
+                <p>Coming soon</p>
+            </div>
+            <div class="flip-card-back">
+                <h2>Choose Language</h2>
+                <a href="#" class="jo">English</a>
+                <a href="#" class="jo">Japanese</a>
+                <a href="#" class="jo">German</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="contact-section" id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +1234567890</li>
+                <li><i class="fas fa-envelope"></i> info@example.com</li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        function toggleNavbar() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+        </script>  
+</body>
+</html>
